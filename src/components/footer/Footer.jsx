@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="col-md-4 text-white">
                <h3>AROUND THE WEB</h3>
 <div className='text-white'>
-    <i className="fa-brands fa-facebook border rounded-circle p-2 me-2"></i>
+    <i className="fa-brands fa-facebook border rounded-circle me-2 p-2  "></i>
     <i className="fa-brands fa-twitter  border rounded-circle p-2 me-2"></i>
     <i className="fa-brands fa-linkedin  border rounded-circle p-2 me-2"></i>
    <i className="fa-solid fa-globe  border rounded-circle p-2"></i>

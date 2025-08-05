@@ -45,3 +45,12 @@ transition: all 1s;
  background-color: rgb(26, 186, 159);
  opacity: 1;
 }
+
+.modal1{
+  z-index: 1050;
+  cursor: pointer;
+}
+
+.cursor{
+     cursor: pointer;
+}
