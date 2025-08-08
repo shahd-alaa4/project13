@@ -25,12 +25,11 @@ export default function Portfolio() {
         <div className="row gy-5 mb-4 ">
           {[port1, port2, port3, port1, port2, port3].map((img, i) => (
             <div className="col-md-4" key={i}>
-              <div className="position-relative cursor">
+              <div className="position-relative cursor"  onClick={() => setClick(img)
+                  }>
                 <img
                   src={img}
                   className="w-100 rounded-3"
-                  onClick={() => setClick(img)
-                  }
                   alt=""
                 />
                 <div className="image rounded-3">
